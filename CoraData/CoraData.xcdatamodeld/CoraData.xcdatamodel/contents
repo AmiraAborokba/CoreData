@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Names" representedClassName="Names" syncable="YES" codeGenerationType="class"/>
+    <entity name="Products" representedClassName="Products" syncable="YES" codeGenerationType="class">
+        <attribute name="pCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pName" optional="YES" attributeType="String"/>
+        <attribute name="pPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Products" positionX="-200.6484375" positionY="-75.41015625" width="128" height="103"/>
+        <element name="Names" positionX="-54" positionY="18" width="128" height="43"/>
+    </elements>
+</model>
